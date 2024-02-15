@@ -1,0 +1,26 @@
+.footer {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
