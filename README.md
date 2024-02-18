@@ -1,3 +1,12 @@
+# designing Part
+Design and workflow created using figma.
+
+# Tech Used 
+
+frontend:- HTML , CSS , React JS
+backend(in progress):- nodejs , ejs , postgreSQL , PostMan for API Testing.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +77,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
