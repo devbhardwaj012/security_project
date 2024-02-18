@@ -4,7 +4,7 @@
   padding: 40px;
   border: 1px solid #f0f0f0;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow for better visual */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Added box shadow for better visual */
 }
 
 h2 {
@@ -17,21 +17,23 @@ label {
 
 input[type="text"] {
   width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  margin-bottom: 15px;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   border: 1px solid #f0f0f0;
-  border-radius: 3px;
+  border-radius: 5px;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 button {
-  background-color: #007bff;
+  background-color: #00264e;
   color: white;
-  padding: 15px 20px; /* Increased padding for height */
+  padding: 12px 20px; /* Increased padding for height */
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
   width: 100%;
 }
 

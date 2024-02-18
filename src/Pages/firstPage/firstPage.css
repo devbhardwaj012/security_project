@@ -1,0 +1,41 @@
+.first-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('');
+  background-size: cover;
+  filter: blur(5px); /* Optional: Add a blur effect to the background */
+}
+
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.security-button, .user-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+  }
+
+  .security-button, .user-button {
+    margin: 10px 0;
+  }
+}

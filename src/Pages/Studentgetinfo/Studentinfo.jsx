@@ -28,7 +28,7 @@ function StudentGetInfo() {
 
   return (
     <div className="student-verification">
-      <h2>Student Verification</h2>
+      <h2>Student Authorization</h2>
       <div>
         <label htmlFor="enrollmentNumber">Enrollment Number:</label>
         <input
