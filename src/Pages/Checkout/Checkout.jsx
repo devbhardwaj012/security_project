@@ -20,6 +20,8 @@ function Checkout({ onCheckout }) {
   return (
     <div className="checkout-container">
       <div className="checkout-card">
+        <h2>Vehicle Check-Out</h2>
+        <div>
         <label htmlFor="vehicleNumber">Vehicle Number:</label>
         <input
           type="text"
@@ -28,6 +30,7 @@ function Checkout({ onCheckout }) {
           onChange={(e) => setVehicleNumber(e.target.value)}
           placeholder="Enter vehicle number"
         />
+        </div>
         <button onClick={handleCheckoutClick}>Checkout</button>
       </div>
     </div>
